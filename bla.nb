@@ -1,0 +1,530 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     21352,        521]
+NotebookOptionsPosition[     20797,        497]
+NotebookOutlinePosition[     21140,        512]
+CellTagsIndexPosition[     21097,        509]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["W\[UDoubleDot]rdest du sagen \[OpenCurlyDoubleQuote]I am cool\
+\[CloseCurlyDoubleQuote]?", "Subsubsection",
+ CellChangeTimes->{{3.6574602803439064`*^9, 3.657460299751185*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", 
+   RowBox[{
+   "default", ",", " ", "simple", ",", " ", "politics", ",", " ", "dirty", 
+    ",", " ", "academical", ",", " ", "weird", ",", " ", "animals"}], "*)"}], 
+  "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"adjective", "=", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+        "\"\<selbstverliebter\>\"", ",", "\"\<selbstverliebte\>\"", ",", 
+         "\"\<selbstverliebtes\>\""}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{
+        "\"\<vollbekloppter\>\"", ",", "\"\<vollbekloppte\>\"", ",", 
+         "\"\<vollbeklopptes\>\""}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{
+        "\"\<sabbernder\>\"", ",", "\"\<sabbernde\>\"", ",", 
+         "\"\<sabberndes\>\""}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{
+        "\"\<bl\[ODoubleDot]der\>\"", ",", "\"\<bl\[ODoubleDot]de\>\"", ",", 
+         "\"\<bl\[ODoubleDot]des\>\""}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{
+        "\"\<bescheuerter\>\"", ",", "\"\<bescheuerte\>\"", ",", 
+         "\"\<bescheuertes\>\""}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{
+        "\"\<beh\[ADoubleDot]mmerter\>\"", ",", 
+         "\"\<beh\[ADoubleDot]mmerte\>\"", ",", 
+         "\"\<beh\[ADoubleDot]mmertes\>\""}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{
+        "\"\<idiotischer\>\"", ",", "\"\<idiotische\>\"", ",", 
+         "\"\<idiotisches\>\""}], "}"}], ",", "\[IndentingNewLine]", 
+       RowBox[{"{", 
+        RowBox[{
+        "\"\<nerviger\>\"", ",", "\"\<nervige\>\"", ",", "\"\<nerviges\>\""}],
+         "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{
+        "\"\<kleinkarierter\>\"", ",", "\"\<kleinkarierte\>\"", ",", 
+         "\"\<kleinkariertes\>\""}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{
+        "\"\<linksgr\[UDoubleDot]nversiffter\>\"", ",", 
+         "\"\<linksgr\[UDoubleDot]nversiffte\>\"", ",", 
+         "\"\<linksgr\[UDoubleDot]nversifftes\>\""}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{
+        "\"\<beknackter\>\"", ",", "\"\<beknackte\>\"", ",", 
+         "\"\<beknacktes\>\""}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{
+        "\"\<hirnloser\>\"", ",", "\"\<hirnlose\>\"", ",", 
+         "\"\<hirnloses\>\""}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{
+        "\"\<langweiliger\>\"", ",", "\"\<langweilige\>\"", ",", 
+         "\"\<langweiliges\>\""}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{
+        "\"\<verkackter\>\"", ",", "\"\<verkackte\>\"", ",", 
+         "\"\<verkacktes\>\""}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{
+        "\"\<\[UDoubleDot]berbezahlter\>\"", ",", 
+         "\"\<\[UDoubleDot]berbezahlte\>\"", ",", 
+         "\"\<\[UDoubleDot]berbezahltes\>\""}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{
+        "\"\<arroganter\>\"", ",", "\"\<arrogante\>\"", ",", 
+         "\"\<arrogantes\>\""}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{
+        "\"\<h\[ADoubleDot]sslicher\>\"", ",", 
+         "\"\<h\[ADoubleDot]ssliche\>\"", ",", 
+         "\"\<h\[ADoubleDot]ssliches\>\""}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{
+        "\"\<asozialer\>\"", ",", "\"\<asoziale\>\"", ",", 
+         "\"\<asoziales\>\""}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{
+        "\"\<dreckiger\>\"", ",", "\"\<dreckige\>\"", ",", 
+         "\"\<dreckiges\>\""}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{
+        "\"\<kranker\>\"", ",", "\"\<kranke\>\"", ",", "\"\<krankes\>\""}], 
+        "}"}]}], "}"}]}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"insultprefix", "=", 
+     RowBox[{"{", 
+      RowBox[{
+      "\"\<Affen\>\"", ",", "\"\<Titten\>\"", ",", "\"\<Kack\>\"", ",", 
+       "\"\<Nutten\>\"", ",", "\"\<Nazi\>\"", ",", "\"\<RTL2\>\"", ",", 
+       "\"\<Kanacken\>\"", ",", "\"\<Bums\>\""}], "}"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"insultpostfixmale", "=", 
+     RowBox[{"{", 
+      RowBox[{
+      "\"\<arsch\>\"", ",", "\"\<sack\>\"", ",", "\"\<schei\[SZ]er\>\"", ",", 
+       "\"\<fanatiker\>\"", ",", "\"\<furz\>\"", ",", 
+       "\"\<w\[ADoubleDot]mser\>\"", ",", "\"\<trottel\>\"", ",", 
+       "\"\<troll\>\"", ",", "\"\<nazi\>\""}], "}"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"insultpostfixfemale", "=", 
+     RowBox[{"{", 
+      RowBox[{"\"\<fresse\>\"", ",", "\"\<schlampe\>\"", ",", "\"\<sau\>\""}],
+       "}"}]}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"insultpostfixneutral", "=", 
+     RowBox[{"{", 
+      RowBox[{"\"\<arschloch\>\"", ",", "\"\<schwein\>\""}], "}"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"normalprefix", "=", 
+     RowBox[{"{", 
+      RowBox[{
+      "\"\<prog1lib\>\"", ",", "\"\<Rosinen\>\"", ",", "\"\<Zwergen\>\"", 
+       ",", "\"\<Teilzeit\>\"", ",", "\"\<M\[ODoubleDot]chtegern\>\"", ",", 
+       "\"\<Apple\>\"", ",", "\"\<Schlafst\[ODoubleDot]r\>\"", ",", 
+       "\"\<Medien\>\"", ",", "\"\<Paragraphen\>\"", ",", 
+       "\"\<Sch\[ODoubleDot]nwetter\>\"", ",", "\"\<Braunschweig\>\""}], 
+      "}"}]}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"normalpostfixmale", "=", 
+     RowBox[{"{", 
+      RowBox[{
+      "\"\<sohn\>\"", ",", "\"\<clown\>\"", ",", "\"\<putzer\>\"", ",", 
+       "\"\<fan\>\"", ",", "\"\<mathematiker\>\"", ",", "\"\<veganer\>\"", 
+       ",", "\"\<hipster\>\"", ",", "\"\<sympathisant\>\"", ",", 
+       "\"\<esel\>\"", ",", "\"\<hund\>\"", ",", "\"\<lecker\>\"", ",", 
+       "\"\<schn\[ODoubleDot]sel\>\"", ",", "\"\<furzer\>\"", ",", 
+       "\"\<banker\>\""}], "}"}]}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"normalpostfixfemale", "=", 
+     RowBox[{"{", 
+      RowBox[{
+      "\"\<wurst\>\"", ",", "\"\<lawine\>\"", ",", "\"\<drossel\>\""}], 
+      "}"}]}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"normalpostfixneutral", "=", 
+     RowBox[{"{", 
+      RowBox[{"\"\<hirn\>\"", ",", "\"\<gesicht\>\""}], "}"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"restofsentence", "=", 
+     RowBox[{"{", 
+      RowBox[{
+      "\"\<hast den Schu\[SZ] nicht geh\[ODoubleDot]rt\>\"", ",", 
+       "\"\<hast 'nen Knall\>\"", ",", 
+       "\"\<tickst wohl nicht mehr richtig\>\"", ",", 
+       "\"\<hast sie nicht mehr alle\>\"", ",", 
+       "\"\<hast wohl nicht mehr alle Tassen im Schrank\>\"", ",", 
+       "\"\<bist wohl aus dem Irrenhaus geflohen\>\"", ",", 
+       "\"\<kannst hingehen, wo der Pfeffer w\[ADoubleDot]chst\>\"", ",", 
+       "\"\<solltest deine Fresse halten\>\"", ",", 
+       "\"\<kannst dir deine Schei\[SZ]e sonstwohin schieben\>\"", ",", 
+       "\"\<bist wohl v\[ODoubleDot]llig besoffen\>\"", ",", 
+       RowBox[{"Hold", "[", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"\"\<bist nicht besser als\>\"", "<>", 
+           RowBox[{"Switch", "[", 
+            RowBox[{
+            "#", ",", "1", ",", "\"\< jeder \>\"", ",", "2", ",", 
+             "\"\< jede \>\"", ",", "3", ",", "\"\< jedes \>\""}], "]"}], "<>", 
+           RowBox[{"Noun", "[", "#", "]"}]}], "&"}], "[", 
+         RowBox[{"MaleFemaleOrNeutral", "[", "]"}], "]"}], "]"}]}], "}"}]}], 
+    ";"}]}]}]], "Input",
+ CellChangeTimes->{{3.6574570496256976`*^9, 3.6574571748958993`*^9}, {
+   3.65745732750252*^9, 3.6574573308151693`*^9}, {3.6574574157572002`*^9, 
+   3.6574574193355165`*^9}, {3.65745745111845*^9, 3.65745748918297*^9}, {
+   3.657457553514477*^9, 3.6574575819534864`*^9}, {3.6574576120176067`*^9, 
+   3.6574576640516167`*^9}, {3.6574577253829927`*^9, 
+   3.6574577912302084`*^9}, {3.657457831669855*^9, 3.657457840592225*^9}, {
+   3.657457914142976*^9, 3.657457917033784*^9}, {3.6574582907410946`*^9, 
+   3.6574583563852005`*^9}, 3.657458387293065*^9, {3.6574584174509387`*^9, 
+   3.6574585011428776`*^9}, {3.657458539426133*^9, 3.657458568412036*^9}, {
+   3.657458623633746*^9, 3.6574587785638375`*^9}, {3.6574588183003187`*^9, 
+   3.65745883126976*^9}, {3.65745910032246*^9, 3.6574591016506553`*^9}, {
+   3.6574600093606625`*^9, 3.657460028861698*^9}, {3.6574600663793106`*^9, 
+   3.6574601919329686`*^9}, {3.6574602398886385`*^9, 
+   3.6574602437013397`*^9}, {3.6574603988814173`*^9, 3.657460401944104*^9}, {
+   3.657461939751416*^9, 3.657461989269673*^9}, {3.6574724235339427`*^9, 
+   3.6574726979363704`*^9}, {3.657472834052943*^9, 3.657472968903863*^9}, {
+   3.6574740063651237`*^9, 3.657474017912612*^9}, {3.65747447967145*^9, 
+   3.657474507172909*^9}, {3.6574778795346966`*^9, 3.6574778817847977`*^9}, {
+   3.6574784931922154`*^9, 3.657478507927391*^9}, {3.6574786591854105`*^9, 
+   3.6574786938122473`*^9}, {3.657478785504609*^9, 3.657478879868989*^9}, {
+   3.657479060571336*^9, 3.6574790629933496`*^9}, {3.6574794306905303`*^9, 
+   3.6574794345032325`*^9}, {3.657481138389863*^9, 3.6574813286916885`*^9}, 
+   3.657481409211602*^9, {3.657481447885502*^9, 3.657481488512684*^9}, {
+   3.6574815742047253`*^9, 3.6574815774392743`*^9}, 3.6574816300358124`*^9, {
+   3.65748168302297*^9, 3.6574816895858245`*^9}, {3.657481762167818*^9, 
+   3.6574817662305346`*^9}, {3.6574858403423777`*^9, 3.657485843483167*^9}, {
+   3.657507850061962*^9, 3.6575078576405077`*^9}, {3.6575168836810236`*^9, 
+   3.6575168859467654`*^9}, {3.657516997073167*^9, 3.657517008479983*^9}, {
+   3.6575173724988956`*^9, 3.6575173747177625`*^9}, {3.6575182859273577`*^9, 
+   3.6575183002406235`*^9}, {3.6575205669175572`*^9, 3.657520573574152*^9}, {
+   3.657520809807614*^9, 3.6575208114326754`*^9}, {3.6575210479605713`*^9, 
+   3.6575211292929416`*^9}, {3.657521207937645*^9, 3.657521277316245*^9}, {
+   3.6575213136306295`*^9, 3.6575213582110677`*^9}, {3.6575215883948627`*^9, 
+   3.6575216205840263`*^9}, {3.6575216514945345`*^9, 3.6575216555572233`*^9}, 
+   3.6575216914966106`*^9, {3.6575217699887576`*^9, 3.6575218480552874`*^9}, {
+   3.657521887385474*^9, 3.6575219127149124`*^9}, 3.6575228537637377`*^9, {
+   3.6575232451308937`*^9, 3.657523353292755*^9}, {3.657523876527402*^9, 
+   3.657523879308777*^9}, {3.6575528125893655`*^9, 3.6575528885745077`*^9}, {
+   3.657553860954191*^9, 3.657553932411126*^9}, {3.6575603296631393`*^9, 
+   3.6575603769468975`*^9}, {3.657560445450529*^9, 3.6575604752958374`*^9}, {
+   3.657560601547802*^9, 3.6575606095794783`*^9}, {3.6575606818957806`*^9, 
+   3.657560684520921*^9}, {3.657560754977813*^9, 3.6575607746663575`*^9}, {
+   3.6576168751825323`*^9, 3.657616901558843*^9}, {3.65804622164472*^9, 
+   3.658046222754175*^9}}],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"MaleFemaleOrNeutral", "[", "]"}], ":=", 
+  RowBox[{"RandomVariate", "[", 
+   RowBox[{"EmpiricalDistribution", "[", "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"Length", "[", "insultpostfixmale", "]"}], "+", 
+        RowBox[{"Length", "[", "normalpostfixmale", "]"}]}], ",", 
+       "\[IndentingNewLine]", 
+       RowBox[{
+        RowBox[{"Length", "[", "insultpostfixfemale", "]"}], "+", 
+        RowBox[{"Length", "[", "normalpostfixfemale", "]"}]}], ",", 
+       "\[IndentingNewLine]", 
+       RowBox[{
+        RowBox[{"Length", "[", "insultpostfixneutral", "]"}], "+", 
+        RowBox[{"Length", "[", "normalpostfixneutral", "]"}]}]}], "}"}], 
+     "\[Rule]", "\[IndentingNewLine]", 
+     RowBox[{"{", 
+      RowBox[{"1", ",", "2", ",", "3"}], "}"}]}], "]"}], 
+   "]"}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"InsultPriority", "[", "sex_", "]"}], ":=", 
+  RowBox[{"RandomVariate", "[", 
+   RowBox[{"EmpiricalDistribution", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"Length", "[", "insultprefix", "]"}], "+", 
+        RowBox[{"Length", "[", 
+         RowBox[{"Switch", "[", 
+          RowBox[{
+          "sex", ",", "1", ",", "normalpostfixmale", ",", "2", ",", 
+           "normalpostfixfemale", ",", "3", ",", "normalpostfixneutral"}], 
+          "]"}], "]"}]}], ",", 
+       RowBox[{
+        RowBox[{"Length", "[", "normalprefix", "]"}], "+", 
+        RowBox[{"Length", "[", 
+         RowBox[{"Switch", "[", 
+          RowBox[{
+          "sex", ",", "1", ",", "insultpostfixmale", ",", "2", ",", 
+           "insultpostfixfemale", ",", "3", ",", "insultpostfixneutral"}], 
+          "]"}], "]"}]}]}], "}"}], "\[Rule]", 
+     RowBox[{"{", 
+      RowBox[{"1", ",", "2"}], "}"}]}], "]"}], "]"}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Noun", "[", "sex_", "]"}], ":=", 
+  RowBox[{"Switch", "[", 
+   RowBox[{"sex", ",", "\[IndentingNewLine]", "1", ",", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"insultprefix", "[", 
+         RowBox[{"[", 
+          RowBox[{"RandomInteger", "[", 
+           RowBox[{"{", 
+            RowBox[{"1", ",", 
+             RowBox[{"Length", "[", "insultprefix", "]"}]}], "}"}], "]"}], 
+          "]"}], "]"}], "\[IndentingNewLine]", "<>", 
+        RowBox[{"normalpostfixmale", "[", 
+         RowBox[{"[", 
+          RowBox[{"RandomInteger", "[", 
+           RowBox[{"{", 
+            RowBox[{"1", ",", 
+             RowBox[{"Length", "[", "normalpostfixmale", "]"}]}], "}"}], 
+           "]"}], "]"}], "]"}]}], ",", "\[IndentingNewLine]", 
+       RowBox[{
+        RowBox[{"normalprefix", "[", 
+         RowBox[{"[", 
+          RowBox[{"RandomInteger", "[", 
+           RowBox[{"{", 
+            RowBox[{"1", ",", 
+             RowBox[{"Length", "[", "normalprefix", "]"}]}], "}"}], "]"}], 
+          "]"}], "]"}], "\[IndentingNewLine]", "<>", 
+        RowBox[{"insultpostfixmale", "[", 
+         RowBox[{"[", 
+          RowBox[{"RandomInteger", "[", 
+           RowBox[{"{", 
+            RowBox[{"1", ",", 
+             RowBox[{"Length", "[", "insultpostfixmale", "]"}]}], "}"}], 
+           "]"}], "]"}], "]"}]}]}], "}"}], "\[IndentingNewLine]", "[", 
+     RowBox[{"[", 
+      RowBox[{"InsultPriority", "[", "sex", "]"}], "]"}], "]"}], ",", 
+    "\[IndentingNewLine]", "2", ",", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"insultprefix", "[", 
+         RowBox[{"[", 
+          RowBox[{"RandomInteger", "[", 
+           RowBox[{"{", 
+            RowBox[{"1", ",", 
+             RowBox[{"Length", "[", "insultprefix", "]"}]}], "}"}], "]"}], 
+          "]"}], "]"}], "\[IndentingNewLine]", "<>", 
+        RowBox[{"normalpostfixfemale", "[", 
+         RowBox[{"[", 
+          RowBox[{"RandomInteger", "[", 
+           RowBox[{"{", 
+            RowBox[{"1", ",", 
+             RowBox[{"Length", "[", "normalpostfixfemale", "]"}]}], "}"}], 
+           "]"}], "]"}], "]"}]}], ",", "\[IndentingNewLine]", 
+       RowBox[{
+        RowBox[{"normalprefix", "[", 
+         RowBox[{"[", 
+          RowBox[{"RandomInteger", "[", 
+           RowBox[{"{", 
+            RowBox[{"1", ",", 
+             RowBox[{"Length", "[", "normalprefix", "]"}]}], "}"}], "]"}], 
+          "]"}], "]"}], "\[IndentingNewLine]", "<>", 
+        RowBox[{"insultpostfixfemale", "[", 
+         RowBox[{"[", 
+          RowBox[{"RandomInteger", "[", 
+           RowBox[{"{", 
+            RowBox[{"1", ",", 
+             RowBox[{"Length", "[", "insultpostfixfemale", "]"}]}], "}"}], 
+           "]"}], "]"}], "]"}]}]}], "}"}], "\[IndentingNewLine]", "[", 
+     RowBox[{"[", 
+      RowBox[{"InsultPriority", "[", "sex", "]"}], "]"}], "]"}], ",", 
+    "\[IndentingNewLine]", "3", ",", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"insultprefix", "[", 
+         RowBox[{"[", 
+          RowBox[{"RandomInteger", "[", 
+           RowBox[{"{", 
+            RowBox[{"1", ",", 
+             RowBox[{"Length", "[", "insultprefix", "]"}]}], "}"}], "]"}], 
+          "]"}], "]"}], "\[IndentingNewLine]", "<>", 
+        RowBox[{"normalpostfixneutral", "[", 
+         RowBox[{"[", 
+          RowBox[{"RandomInteger", "[", 
+           RowBox[{"{", 
+            RowBox[{"1", ",", 
+             RowBox[{"Length", "[", "normalpostfixneutral", "]"}]}], "}"}], 
+           "]"}], "]"}], "]"}]}], ",", "\[IndentingNewLine]", 
+       RowBox[{
+        RowBox[{"normalprefix", "[", 
+         RowBox[{"[", 
+          RowBox[{"RandomInteger", "[", 
+           RowBox[{"{", 
+            RowBox[{"1", ",", 
+             RowBox[{"Length", "[", "normalprefix", "]"}]}], "}"}], "]"}], 
+          "]"}], "]"}], "\[IndentingNewLine]", "<>", 
+        RowBox[{"insultpostfixneutral", "[", 
+         RowBox[{"[", 
+          RowBox[{"RandomInteger", "[", 
+           RowBox[{"{", 
+            RowBox[{"1", ",", 
+             RowBox[{"Length", "[", "insultpostfixneutral", "]"}]}], "}"}], 
+           "]"}], "]"}], "]"}]}]}], "}"}], "\[IndentingNewLine]", "[", 
+     RowBox[{"[", 
+      RowBox[{"InsultPriority", "[", "sex", "]"}], "]"}], "]"}]}], 
+   "\[IndentingNewLine]", "]"}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Adjective", "[", "sex_", "]"}], ":=", 
+  RowBox[{"adjective", "[", 
+   RowBox[{"[", 
+    RowBox[{
+     RowBox[{"RandomInteger", "[", 
+      RowBox[{"{", 
+       RowBox[{"1", ",", 
+        RowBox[{"Length", "[", "adjective", "]"}]}], "}"}], "]"}], ",", 
+     "sex"}], "]"}], "]"}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"RestOfSentence", "[", "]"}], ":=", 
+  RowBox[{"ReleaseHold", "[", 
+   RowBox[{"restofsentence", "[", 
+    RowBox[{"[", 
+     RowBox[{"RandomInteger", "[", 
+      RowBox[{"{", 
+       RowBox[{"1", ",", 
+        RowBox[{"Length", "[", "restofsentence", "]"}]}], "}"}], "]"}], "]"}],
+     "]"}], "]"}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"IAmCool", "[", "]"}], ":=", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"\"\<Du\>\"", "<>", 
+     RowBox[{"If", "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"RandomInteger", "[", 
+         RowBox[{"{", 
+          RowBox[{"1", ",", "2"}], "}"}], "]"}], "\[Equal]", "1"}], ",", 
+       RowBox[{"\"\< \>\"", "<>", 
+        RowBox[{"Adjective", "[", "#", "]"}]}], ",", "\"\<\>\""}], "]"}], 
+     "<>", "\"\< \>\"", "<>", 
+     RowBox[{"Noun", "[", "#", "]"}], "<>", 
+     RowBox[{"If", "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"RandomInteger", "[", 
+         RowBox[{"{", 
+          RowBox[{"1", ",", "2"}], "}"}], "]"}], "\[Equal]", "1"}], ",", 
+       RowBox[{"\"\< \>\"", "<>", 
+        RowBox[{"RestOfSentence", "[", "]"}]}], ",", "\"\<\>\""}], "]"}], 
+     "<>", "\"\<!\>\""}], "&"}], "[", 
+   RowBox[{"MaleFemaleOrNeutral", "[", "]"}], "]"}]}]}], "Input",
+ CellChangeTimes->{{3.6574729935614004`*^9, 3.6574730148437986`*^9}, {
+  3.6574733780818105`*^9, 3.657473737491472*^9}, {3.657473770571372*^9, 
+  3.6574738043231616`*^9}, {3.6574738441846294`*^9, 3.6574738472004366`*^9}, {
+  3.657473885671204*^9, 3.6574739291110077`*^9}, {3.657473966706771*^9, 
+  3.6574739959114466`*^9}, {3.6574740263349123`*^9, 3.657474163045306*^9}, {
+  3.6574741972033396`*^9, 3.6574741973752313`*^9}, {3.6574743474456882`*^9, 
+  3.6574744191057615`*^9}, {3.657474802128811*^9, 3.6574750697836285`*^9}, {
+  3.657477700375759*^9, 3.657477726127435*^9}, {3.657477756597806*^9, 
+  3.6574778617837553`*^9}, {3.6574858550771246`*^9, 3.6574858614524684`*^9}, {
+  3.657521972202377*^9, 3.657522107225005*^9}, {3.657522272092907*^9, 
+  3.6575222987193174`*^9}, {3.6575223332367306`*^9, 3.6575223608475385`*^9}, {
+  3.657522499964131*^9, 3.657522603203863*^9}, {3.6575226528470664`*^9, 
+  3.6575226677853184`*^9}}]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "Mal sehen, was ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " dazu sagt..."
+}], "Subsubsection",
+ CellChangeTimes->{{3.6574603028763514`*^9, 3.6574603160020475`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"IAmCool", "[", "]"}]], "Input",
+ CellChangeTimes->{{3.6574571768022504`*^9, 3.657457182896327*^9}, {
+  3.6574600383778257`*^9, 3.657460069535701*^9}, {3.6574604509935813`*^9, 
+  3.6574604615722647`*^9}, {3.657479158488617*^9, 3.6574791597855606`*^9}, {
+  3.6575144900862017`*^9, 3.6575144911331367`*^9}, {3.657523658828586*^9, 
+  3.657523659781756*^9}}],
+
+Cell[BoxData["\<\"Du bescheuertes RTL2hirn bist wohl aus dem Irrenhaus \
+geflohen!\"\>"], "Output",
+ CellChangeTimes->{{3.658046055486098*^9, 3.658046157911191*^9}, {
+  3.6580461921321363`*^9, 3.658046349635813*^9}}]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1366, 685},
+WindowMargins->{{-8, Automatic}, {Automatic, -8}},
+FrontEndVersion->"10.2 for Microsoft Windows (64-bit) (July 29, 2015)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 181, 2, 34, "Subsubsection"],
+Cell[764, 26, 10437, 222, 452, "Input"],
+Cell[11204, 250, 8715, 217, 612, "Input"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[19956, 472, 192, 6, 29, "Subsubsection"],
+Cell[CellGroupData[{
+Cell[20173, 482, 377, 6, 31, "Input"],
+Cell[20553, 490, 216, 3, 31, "Output"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
